@@ -1,2 +1,1 @@
-# Basic-Portfolio
-Homework 1 (Recommended)
+# rishikesh18.github.io
