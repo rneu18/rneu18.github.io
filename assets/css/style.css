@@ -76,9 +76,6 @@ span{
     height: auto;
     padding: 0px;
     padding-bottom: 50px;
-    
-    overflow: hidden;
-    clear: both;
     border: #dddddd;
   }
 
@@ -87,6 +84,7 @@ span{
     float: left;
     background: honeydew;
     padding-right:0px;
+    padding-bottom: 10px;
 }
 
 
@@ -126,7 +124,7 @@ aside {
     background:#666666;
     width: 100%;
     height: 25px;
-    margin-top: 5px:
+    margin-top: 5px;
     overflow: auto;
     clear: both;
     border-top: 8px solid green;
@@ -136,7 +134,7 @@ aside {
     text-align: center;
 }
     
-}
+
 .wrap{
     float:left;
     margin-right: 20px;
