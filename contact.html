@@ -7,6 +7,8 @@
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <script src="assets/Javascript/Javascript.js"></script>
+
     
 </head>
 <body>
@@ -16,7 +18,7 @@
         </div>
         <div id="menu">
             <a href="index.html"><span>About</span></a>|
-            <a href="portfolio.html"><span>Portifolio</span></a>|
+            <a href="portfolio.html"><span>Portfolio</span></a>|
             <a href="contact.html"><span>Contact</span></a>
         </div>
     </div>
@@ -24,7 +26,15 @@
     <div id="bio">
         <h2>Contact</h2>
         <hr/>
-        
+    <form>
+            Name:<br>
+            <input type="text" id="name" placeholder="Pushpa Neupane"><br>
+            Email:<br>
+            <input type="text" id="email" placeholder="example.123@gmail.com"><br>
+            Message:<br>
+            <textarea rows="10" cols="60" id="message"></textarea> <br><br>
+            <input type="button" value="Submit" onclick="saveData()">
+    </form>
     </div>
 
     <aside>

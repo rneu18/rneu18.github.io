@@ -1,56 +1,13 @@
 body {
     background: rgb(218, 220, 221);
-    
     width: 100%;
-    font-family: Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    line-height: 22px;
     }
 
-h1 {
-    position: relative;
-    left: 40px;
-    font-size: 24px;
-    font: bold;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
-    background-color:greenyellow !important;
-    width: 210px;
-    float: left;
-    padding-top: 20px;
-    padding: 15px;
-    margin-left: 20px;
-    border: 2px;
-    border-color: #cccccc !important;
+
     
-}
- h2 {
-     position: relative;
-     left: 20px;
-     font-size: 22px !important;
-     color: #4aaaa5;
-     font-family: 'Georgia', Times, Times New Roman, serif;
-     padding: 10px 5px 5px 0px;
-     font-weight: 900;
- }
-
- h3 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font: 20px;
- }
-
-#menu {
-    position: relative;
-    left:525px;
-    width: 225px;
-    float: left;
-    font-size: 20px;
-    color: black;
-    margin-right: 30px;
-    padding-top: 20px;
-    padding: 15px;
-
-}
-
 #top {
     z-index: 2;
     position: fixed;
@@ -59,6 +16,36 @@ h1 {
     width: 100%;
     height: 54px;
     background: white;
+}
+
+h1 {
+    position: relative;
+    left: 40px;
+    font-size: 24px;
+    font: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    background-color:greenyellow;
+    width: 210px;
+    float: left;
+    padding-top: 20px;
+    padding: 15px;
+    margin-left: 20px;
+    border: 2px;
+    border-color: #cccccc;
+  }
+
+  #menu {
+    position: relative;
+    left:550px;
+    width: 240px;
+    float: left;
+    font-size: 20px;
+    color: black;
+    margin-right: 30px;
+    padding-top: 20px;
+    padding: 15px;
+
 }
 
 a {
@@ -75,18 +62,48 @@ span{
     width: 960px;
     height: auto;
     padding: 0px;
-    padding-bottom: 50px;
     border: #dddddd;
-  }
-
-#bio {
-    width: 650px !important;
-    float: left;
-    background: honeydew;
-    padding-right:0px;
-    padding-bottom: 10px;
+   
 }
 
+   
+
+  #bio {
+    width: 650px;
+    float: left;
+    height: auto;
+    background: honeydew;
+    padding-right:0px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+
+form {
+    margin-left: 40px;
+}
+input {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+ h2 {
+     position: relative;
+     left: 20px;
+     font-size: 22px;
+     color: #4aaaa5;
+     font-family: 'Georgia', Times, Times New Roman, serif;
+     padding: 10px 5px 5px 0px;
+     font-weight: 900;
+ }
+
+ .wrap{
+    float:left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
 
 
 p {
@@ -96,8 +113,18 @@ p {
     padding-bottom: 5px;
     padding-right: 15px;
     height: auto;
-    margin-bottom: 10px;
+   
+}
 
+.aside1 {
+    position: reltaive;
+    background: rgb(69, 180, 69);
+    float: left;
+    left: 10px;
+    padding: 20px;
+    width: 230px;
+    height: 180px;
+    margin: 15px;
 }
 
 aside {
@@ -110,6 +137,11 @@ aside {
     height: auto;
     
 }
+
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font: 20px;
+ }
 
 #git, #linkin {
     padding-right: 10px;
@@ -135,10 +167,4 @@ aside {
 }
     
 
-.wrap{
-    float:left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    padding-left: 20px;
-}
 
