@@ -2,57 +2,100 @@
 <html lang="en-us">
 
 <head>
+
   <meta charset="UTF-8">
-  <title>Contact Rishikesh</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-  <script src="assets/Javascript/Javascript.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    
+  <title>Bootstrap_Protfolio</title>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/style.css">
+  
+
 </head>
+
 <body>
-    <div id="top">
+
+  <nav class="navbar navbar-default">
+    <div class="container" id="header">
+      <div class="navbar-header" align="center">
+        <a class="navbar-brand" href="index.html">Rishikesh Neupane</a>
+      </div>
+      
         <div>
-            <h1><a href="index.html">Rishikesh Neupane</a></h1>
+        <ul class="nav navbar-nav navbar-right inline-navbar">
+          <li><a href="index.html">About</a></li>
+          <li> <span id="span1">|</span1></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li> <span id="span1">|</span1></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div> 
+    </div>
+  </nav>
+
+  <div class="container" >
+    <div class="row">
+        <div class="col-md-7 main_index" >
+            
+        <div class="row main">
+            <div class="col-sm-12">
+            <h2 class="heading1">Contact</h2>
+            <hr/>
+            <form action="mailto:rishi.neupane@gmail.com" method="post" enctype="text/plain">
+              Name:<br>
+              <input type="text" name="name" id="name"><br>
+              E-mail:<br>
+              <input type="text" name="mail" id="email"><br>
+              Message:<br>
+              <input type="text" name="comment" id="message"><br><br>
+              <input type="submit" value="Send" id="submit">
+              <input type="reset" value="Reset" id ="reset">
+              </form>
+            </div>
         </div>
-        <div id="menu">
-            <a href="index.html"><span>About</span></a>|
-            <a href="portfolio.html"><span>Portfolio</span></a>|
-            <a href="contact.html"><span>Contact</span></a>
+        </div>
+        
+        <div class="col-md-1"></div>
+
+
+        <div class="col-md-4" id="asid">
+          <div class="panel panel-default main2">
+              <div class="panel-heading">
+              <h1 class="panel-title" id="connectme">Connect with me</h1>
+                </div>
+            <div class="panel-body">
+                  
+              <div class="col-xs-4">
+                <a href="https://github.com/rishikesh18" target="_blank"><img id="git" src="assets/images/github.png" height="auto" width="auto" alt="Github"/></a>
+                </div>
+                <div class="col-xs-4">
+                <a href="https://www.linkedin.com/in/rishikesh-neupane-4604a4147/" target="_blank"><img id="linkin" src="assets/images/linkedin.png" height="auto" width="auto" alt="Likidin"/></a>
+                </div>
+                <div class="col-xs-4">
+                <a href="https://stackoverflow.com/users/9336078/rishikesh?tab=profile" target="_blank"><img id="stack" src="assets/images/stackoverflow.png" height="auto" width="auto" alt="Stack overflow"/></a>
+                </div>
+                
+            
+            </div>
+            <div class="panel-footer">Email: rishi.neupane@gmail.com</div>
+            </div>
         </div>
     </div>
-    <div class="main">
-    <div id="bio">
-        <h2>Contact</h2>
-        <hr/>
-    <form>
-            Name:<br>
-            <input type="text" id="name" placeholder="Pushpa Neupane"><br>
-            Email:<br>
-            <input type="text" id="email" placeholder="example.123@gmail.com"><br>
-            Message:<br>
-            <textarea rows="10" cols="60" id="message"></textarea> <br><br>
-            <input type="button" value="Submit" onclick="saveData()">
-    </form>
+  </div>
+
+  <footer class="footer">
+    <div class="container" id="footer">
+      <span class="text-muted">Copyright &copy; 2018 Rishikesh Neupane</span>
     </div>
+  </footer>
 
-    <aside>
-        <h3> Connect with me</h3>
-        <hr/>
-        <a href="https://github.com/rishikesh18"><img id="git" src="assets/images/github.png" height="70" width="70" alt="Github"/></a>
-        <a href="https://www.linkedin.com/in/rishikesh-neupane-4604a4147/"><img id="linkin" src="assets/images/linkedin.png" height="70" width="70" alt="Likidin"/></a>
-        <a href="https://stackoverflow.com/users/9336078/rishikesh?tab=profile"><img id="stack" src="assets/images/stackoverflow.png" height="76" width="74" alt="Stack overflow"/></a>
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-    </aside>
-
-    </div>
-
-    <footer class="footer">
-            <p id="foot">Copyright &copy; 2018 Rishikesh Neupane<p>
-    </footer>
-
-
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
