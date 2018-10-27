@@ -163,3 +163,7 @@ footer {
 .dis {
   margin: 0.1em;
 }
+
+.pageName:hover {
+  color: rgb(108, 95, 231);
+}
