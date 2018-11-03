@@ -57,7 +57,7 @@
 .projectimg {
     width: 100%;
     height: auto;
-    max-height: 190px;
+    max-height: 195px;
     min-height: 190px;
 
 }
@@ -110,7 +110,7 @@
   
   /* Style the back side */
   .flip-box-back {
-    background-color: dodgerblue;
+    background-color: #FF69A3;
     color: white;
     transform: rotateY(180deg);
   }
