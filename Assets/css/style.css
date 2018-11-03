@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Luckiest+Guy');
+
+#bod {
+    text-align: center;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    background-color: royalblue;
+    /* The image used */
+    background-image: url("images/back7.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#head {
+    font-family: 'Luckiest Guy', cursive;
+    color:#FF69A3;
+}
+
+#abForm{
+    color: #D6FFF6;
+    text-align: justify;
+}
+#cent{
+    text-align: center;
+}
+
+#portC{
+    background-color:#FF69A3;
+    color: #D6FFF6;
+    opacity: .8;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #D6FFF6;
+}
+
+#linkForm{
+    color: #D6FFF6;
+    text-emphasis: none;
+}
+
+#image{
+    border: 1px solid #FF69A3;
+}
+
+.projectdescription{
+    text-align: left;
+}
