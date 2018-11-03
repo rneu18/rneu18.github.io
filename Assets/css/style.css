@@ -46,9 +46,25 @@
     text-emphasis: none;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: cadetblue;
+   
     margin: 5px;
    
+}
+
+#linkForm1{
+    background-color: cadetblue;
+}
+
+#linkForm2{
+    background-color: #4875B4;
+}
+
+#linkForm3{
+    background-color: black;
+}
+
+#linkForm4{
+    background-color: orange;
 }
 
 #image{
