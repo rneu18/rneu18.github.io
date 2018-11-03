@@ -41,9 +41,14 @@
     border: 1px solid #D6FFF6;
 }
 
-#linkForm{
+.linkForm{
     color: #D6FFF6;
     text-emphasis: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: cadetblue;
+    margin: 5px;
+   
 }
 
 #image{
