@@ -4,9 +4,10 @@
     text-align: center;
     margin: auto;
     font-family: 'Lato', sans-serif;
-    background-color: royalblue;
-    /* The image used */
     background-image: url("../images/k20.jpg");
+    /* background-color: royalblue; */
+    /* The image used */
+    
     /* Full height */
     height: 100%; 
     /* Center and scale the image nicely */
