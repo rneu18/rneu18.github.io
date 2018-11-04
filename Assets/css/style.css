@@ -20,9 +20,9 @@
     min-height: 100vh;
 }
 
-#head {
-    font-family: 'Luckiest Guy', cursive;
-    color:#FF69A3;
+#head1, #head2, #head3, #head4 {
+    font-family: 'cursive', 'Luckiest Guy' ;
+    color:aquamarine;
 }
 
 #abForm{
@@ -33,12 +33,18 @@
     text-align: center;
 }
 
+#myName {
+    font-family: Arial, Helvetica, sans-serif;
+    color: olivedrab;
+}
+
 #portC{
-    background-color:#FF69A3;
+    background-color: olivedrab;
     color: #D6FFF6;
     opacity: .8;
     font-family: 'Lato', sans-serif;
     border: 1px solid #D6FFF6;
+    margin: 5px;
 }
 
 .linkForm{
@@ -68,7 +74,7 @@
 }
 
 #image{
-    border: 1px solid #FF69A3;
+    border: 1px solid olive;
 }
 
 .projectdescription{
@@ -131,7 +137,7 @@
   
   /* Style the back side */
   .flip-box-back {
-    background-color: #FF69A3;
+    background-color: olivedrab;
     color: white;
     transform: rotateY(180deg);
   }
