@@ -79,6 +79,7 @@
 
 .projectdescription{
     text-align: left;
+    min-height: 190px;
 }
 
 .projectimg {
