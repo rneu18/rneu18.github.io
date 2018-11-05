@@ -26,6 +26,7 @@
     color:aquamarine;
 }
 
+
 #abForm{
     color: #D6FFF6;
     text-align: justify;
@@ -54,32 +55,33 @@
 .linkForm{
     color: #D6FFF6;
     text-emphasis: none;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 5px;
    
 }
 
 #linkForm1{
     background-color: cadetblue;
-    font-size:3.0em;
+    font-size:2.0em;
    
 }
 
 
 #linkForm2{
     background-color: #4875B4;
-    font-size:3.0em;
+    font-size:2.0em;
+    
 }
 
 #linkForm3{
     background-color: black;
-    font-size:3.0em;
+    font-size:2.0em;
 }
 
 #linkForm4{
     background-color: orange;
-    font-size:3.0em;
+    font-size:2.0em;
 }
 
 #image{
@@ -155,8 +157,32 @@
     height: 100%;
   }
 
+  @media only screen and (max-width: 1005px) {
+
+    .project_row {
+        margin: 10px;
+    }
+
+    .about_row {
+        margin: 10px;
+    }
+
+    .nav_row {
+        margin: 10px;
+    }
+
+    .row_icons{
+        margin: 10px;
+    }
+
+
+}
+
   @media only screen and (max-width: 350px) {
+
+
     #portC {
         height: 450px;
     }
+
 }
