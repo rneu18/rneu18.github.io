@@ -14,10 +14,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    line-height: 1.5em;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    
 }
 
 #head1, #head2, #head3, #head4 {
@@ -36,6 +37,8 @@
 #myName {
     font-family: Arial, Helvetica, sans-serif;
     color: olivedrab;
+    
+    font-size: 2.0em;
 }
 
 #portC{
@@ -53,25 +56,30 @@
     text-emphasis: none;
     padding-left: 10px;
     padding-right: 10px;
-   
     margin: 5px;
    
 }
 
 #linkForm1{
     background-color: cadetblue;
+    font-size:3.0em;
+   
 }
+
 
 #linkForm2{
     background-color: #4875B4;
+    font-size:3.0em;
 }
 
 #linkForm3{
     background-color: black;
+    font-size:3.0em;
 }
 
 #linkForm4{
     background-color: orange;
+    font-size:3.0em;
 }
 
 #image{
@@ -91,6 +99,9 @@
 
 }
 
+.col_icon {
+    height: 40px;
+}
 
 .dis {
     line-height: normal;
