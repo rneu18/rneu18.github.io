@@ -21,6 +21,10 @@
     
 }
 
+.navbar {
+    line-height: 2;
+}
+
 #head1, #head2, #head3, #head4 {
     font-family: 'cursive', 'Luckiest Guy' ;
     color:aquamarine;
@@ -39,7 +43,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color: olivedrab;
     
-    font-size: 2.0em;
+    font-size: 2.5em;
 }
 
 #portC{
@@ -57,7 +61,7 @@
     text-emphasis: none;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 5px;
+  
    
 }
 
@@ -199,6 +203,12 @@
     .row_icons{
         margin: 10px;
     }
+
+    #myName {
+        font-size: 1.5em;
+}
+
+
 
 
 }
