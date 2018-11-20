@@ -4,7 +4,7 @@
     text-align: center;
     margin: 0;
     font-family: 'Lato', sans-serif;
-    background-image: url("../../Assets/Images/k20.jpg");
+    background-image: url("../../myAssets/Images/k20.jpg");
     /* background-color: royalblue; */
     /* The image used */
     
@@ -58,6 +58,10 @@ a {
     color: olivedrab;
     
     font-size: 2.5em;
+}
+
+#myName2, #myname3 {
+    display: none;
 }
 
 #portC{
@@ -132,7 +136,7 @@ a {
 
 .disHead {
     color: cyan;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 .row {
@@ -220,10 +224,7 @@ a {
 
   @media only screen and (max-width: 1005px) {
 
-    .project_row {
-        margin: 10px;
-    }
-
+    
     .about_row {
         margin: 10px;
     }
@@ -241,7 +242,7 @@ a {
 }
 
 .navbar {
-    line-height: 1.5;
+    line-height: 1.0;
     padding-right: 0;
     padding-left: 0;
 }
@@ -255,16 +256,24 @@ a {
 
 
     #portC {
-        height: 450px;
+        height: auto;
+            }
+
+    #myName, #myname4 {
+        display: none;
     }
 
-    #myName {
-        font-size: 1.5em;
+    #myName2, #myname3 {
+        display: inline;
     }
 
-    .project_row {
-        margin: 10px;
+    #myName2 {
+        font-size: 3.0em;
+        padding-right: 5%;
+        color: gold;
     }
+
+    
 
     .about_row {
         margin: 10px;
