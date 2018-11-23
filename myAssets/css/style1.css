@@ -1,26 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Luckiest+Guy');
 
-
-.carousel-control {
-    width: 10%;
-}
-#bod {
-    text-align: center;
-    margin: 0;
-    font-family: 'Lato', sans-serif;
+body {
+   
     background-image: url("../../myAssets/Images/k20.jpg");
-    /* background-color: royalblue; */
-    /* The image used */
-    
-    /* Full height */
-    height: 100%; 
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+.navbar {
+    background-color: aquamarine;
+}
+
+#navLink1, #navLink2, #navLink3 {
+    color: green;
+}
+
+#myName {
+    font-family: Arial, Helvetica, sans-serif;
+    color: olivedrab;
     
 }
 
@@ -28,43 +29,14 @@ a {
     color: goldenrod;
 }
 
-.navbar {
-    line-height: 2;
-    
-
-}
-
-#Portfolio {
-    margin: 5%;
-}
-
-.mainBody {
-    padding-top: 1%;
+#myName2, #myname3 {
+    display: none;
 }
 
 #head1, #head2, #head3, #head4 {
     font-family: 'cursive', 'Luckiest Guy' ;
-    color:aquamarine;
-}
-
-
-#abForm{
-    color: #D6FFF6;
-    text-align: justify;
-}
-#cent{
+    color:aqua;
     text-align: center;
-}
-
-#myName {
-    font-family: Arial, Helvetica, sans-serif;
-    color: olivedrab;
-    
-    font-size: 2.5em;
-}
-
-#myName2, #myname3 {
-    display: none;
 }
 
 #portC{
@@ -76,41 +48,42 @@ a {
     margin: 1%;
     min-height: 270px;
 }
-
-.linkForm{
-    color: #D6FFF6;
-    text-emphasis: none;
-    padding-left: 5%;
-    padding-right: 5%;
-  
+.carousel-inner{
+    width: 100%;
    
 }
 
-#linkForm1{
-    background-color: cadetblue;
-    font-size:1.5em;
-   
+.carousel-control-prev{
+    align-self: center;
+    position: absolute;
+    width: 5%;
+    
+    margin-top:1%;
+    margin-bottom: 1%;
+    
+    left: -0%;
+    background-color: darkgray;
+    opacity: 0;
 }
 
 
-#linkForm2{
-    background-color: #4875B4;
-    font-size:1.5em;
+.carousel-control-next {
+    align-self: center;
+    position: absolute;
+    margin-top:1%;
+    margin-bottom: 1%;
+    width: 5%;
+    right: -0%;
+    background-color: darkgray;
+    opacity: 0;
+    
     
 }
 
-#linkForm3{
-    background-color: black;
-    font-size:1.5em;
-}
 
-#linkForm4{
-    background-color: orange;
-    font-size:1.5em;
-}
-
-#image{
-    border: 1px solid olive;
+.project_row {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .projectdescription{
@@ -125,33 +98,6 @@ a {
     min-height: 190px;
 
 }
-
-.col_icon {
-    height: 40px;
-}
-
-.dis {
-    line-height: normal;
-    margin: 0px;
-    padding: 0px;
-   
-}
-
-.disHead {
-    color: cyan;
-    font-size: 1.1em;
-}
-
-.row {
-    
-    margin: 0;
-    margin-bottom: 1%;
-}
-
-
-
-  
-  /* entire container, keeps perspective */
 
 .flip-box {
     -webkit-perspective: 1000;
@@ -219,75 +165,133 @@ a {
     transform: rotateY(180deg);
   }
 
-  #footerEmail {
-    font-family: Arial, Helvetica, sans-serif;
-
+  .col-3 {
+      text-align: center;
   }
-  
 
-  @media only screen and (max-width: 1005px) {
+  .linkForm{
+    color: #D6FFF6;
+    text-emphasis: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  
+   
+}
+
+#linkForm1{
+    background-color: cadetblue;
+    font-size:1.5em;
+   
+}
+
+
+#linkForm2{
+    background-color: #4875B4;
+    font-size:1.5em;
+    
+}
+
+#linkForm3{
+    background-color: black;
+    font-size:1.5em;
+}
+
+#linkForm4{
+    background-color: orange;
+    font-size:1.5em;
+}
+
+
+  footer {
+     
+      margin-bottom: -2.5%;
+     
+  }
+
+  .footer {
+     
+    
+    background-color: aquamarine;
+}
+
+
+  
+  #foot {
+    background-color: aquamarine;
+    text-align: center;
+  }
+
+  #emailFooter {
+      margin-left: 5px;
+    
+  }
+
+@media only screen and (max-width: 1824px) {
 
     
-    .about_row {
-        margin: 10px;
-    }
-
-    .nav_row {
-        margin: 10px;
-    }
-
-    .row_icons{
-        margin: 10px;
-    }
-
-    #myName {
-        font-size: 1.5em;
-}
-
-.navbar {
-    line-height: 1.0;
-    padding-right: 0;
-    padding-left: 0;
-}
-
-
-
-
-}
-
-  @media only screen and (max-width: 350px) {
-
-    .linkForm{
-        padding-left: 10%;
-        padding-right: 10%;
       
        
-    }
-    #portC {
-        height: auto;
-            }
+}
 
-    #myName, #myname4 {
-        display: none;
-    }
+@media only screen and (max-width: 1224px) {
+
+    
+      
+       
+}
+
+@media only screen and (max-width: 768px) {
+
+    
+      
+       
+}
+
+@media only screen and (max-width: 370px) {
 
     #myName2, #myname3 {
         display: inline;
     }
 
+    #myName, #myname4 {
+        display: none;
+    }
+
     #myName2 {
-        font-size: 3.0em;
+        font-size: 1.5em;
         padding-right: 5%;
         color: gold;
     }
 
+    #linkForm1{
+        
+        font-size:1.0em;
+        padding-right: 15%;
+       
+    }
     
-
-    .about_row {
-        margin: 10px;
+    
+    #linkForm2{
+        
+        font-size:1.0em;
+        
+    }
+    
+    #linkForm3{
+        
+        font-size:1.0em;
+    }
+    
+    #linkForm4{
+      
+        font-size:1.0em;
     }
 
-    .nav_row {
-        margin: 10px;
+    #emailFooter {
+        margin-left: 0px;
+      
     }
+      
+       
 }
