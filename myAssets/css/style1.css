@@ -248,7 +248,7 @@ a {
        
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 340px) {
 
     #myName2, #myname3 {
         display: inline;
