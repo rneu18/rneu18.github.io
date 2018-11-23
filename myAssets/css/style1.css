@@ -248,22 +248,9 @@ a {
        
 }
 
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 370px) {
 
-    #myName2, #myname3 {
-        display: inline;
-    }
-
-    #myName, #myname4 {
-        display: none;
-    }
-
-    #myName2 {
-        font-size: 1.5em;
-        padding-right: 5%;
-        color: gold;
-    }
-
+   
     #linkForm1{
         
         font-size:1.0em;
@@ -292,6 +279,27 @@ a {
         margin-left: 0px;
       
     }
+      
+       
+}
+
+@media only screen and (max-width: 330px) {
+
+    #myName2, #myname3 {
+        display: inline;
+    }
+
+    #myName, #myname4 {
+        display: none;
+    }
+
+    #myName2 {
+        font-size: 1.5em;
+        padding-right: 5%;
+        color: gold;
+    }
+
+  
       
        
 }
