@@ -173,6 +173,16 @@ a {
       text-align: center;
   }
 
+  .card-header{
+      color: khaki;
+      text-decoration-style: double;
+    
+  }
+
+  .disHead {
+      color: goldenrod;
+  }
+
   .linkForm{
     color: #D6FFF6;
     text-emphasis: none;
