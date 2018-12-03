@@ -15,8 +15,14 @@ body {
     background-color: aquamarine;
 }
 
+
 #navLink1, #navLink2, #navLink3, #navLink4 {
     color: green;
+}
+
+
+#navLink1:hover, #navLink2:hover, #navLink3:hover, #navLink4:hover {
+    color: blue;
 }
 
 #abForm {
@@ -27,7 +33,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: olivedrab;
     margin-left: 5%;
+    font-size: 1.6em;
     
+}
+
+#myName:hover{
+    color: palevioletred;
 }
 
 a {
