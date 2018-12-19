@@ -37,6 +37,11 @@ body {
     
 }
 
+/* #myPhoto {
+    
+    border-radius: 50% !important;
+} */
+
 #myName:hover{
     color: palevioletred;
 }
