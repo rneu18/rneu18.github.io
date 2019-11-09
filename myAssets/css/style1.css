@@ -55,7 +55,7 @@ a {
 }
 
 
-#head1, #head2, #head3, #head4 {
+#head1, #head2, #head3, #head4, #head5 {
     font-family: 'cursive', 'Luckiest Guy' ;
     color:aqua;
     text-align: center;
@@ -69,6 +69,16 @@ a {
     border: 1px solid #D6FFF6;
     margin: 1%;
     min-height: 270px;
+}
+
+#msc_header, #uncbc_header,#bsc_header {
+    background-color: olivedrab;
+    color: #D6FFF6;
+    opacity: .8;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #D6FFF6;
+    margin: 1%;
+    min-height: 230px;
 }
 .carousel-inner{
     width: 100%;
@@ -103,7 +113,7 @@ a {
 }
 
 
-.project_row {
+.project_row, .education_row {
     margin-left: 5%;
     margin-right: 5%;
 }

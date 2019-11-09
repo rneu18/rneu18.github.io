@@ -42,7 +42,7 @@ a {
     padding-top: 1%;
 }
 
-#head1, #head2, #head3, #head4 {
+#head1, #head2, #head3, #head4, #head5 {
     font-family: 'cursive', 'Luckiest Guy' ;
     color:aquamarine;
 }
@@ -75,6 +75,16 @@ a {
     border: 1px solid #D6FFF6;
     margin: 1%;
     min-height: 270px;
+}
+
+#msc_header, #uncbc_header,#bsc_header{
+    background-color: olivedrab;
+    color: #D6FFF6;
+    opacity: .8;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #D6FFF6;
+    margin: 1%;
+    min-height: 230px;
 }
 
 .linkForm{
@@ -263,7 +273,7 @@ a {
       
        
     }
-    #portC {
+    #portC, #msc_header, #uncbc_header,#bsc_header {
         height: auto;
             }
 
