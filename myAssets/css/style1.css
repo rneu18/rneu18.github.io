@@ -61,7 +61,7 @@ a {
     text-align: center;
 }
 
-#portC{
+#portC1, #portC2, #portC3, #portC4, #portC5, #portC6, #portC7, #portC8, #portC9{
     background-color: olivedrab;
     color: #D6FFF6;
     opacity: .8;
@@ -71,7 +71,7 @@ a {
     min-height: 270px;
 }
 
-#msc_header, #uncbc_header,#bsc_header {
+#msc_header, #uncbc_header,#bsc_header, #job_header1, #job_header2, #job_header3 {
     background-color: olivedrab;
     color: #D6FFF6;
     opacity: .8;
@@ -219,6 +219,10 @@ a {
     text-align: center;
   
    
+}
+
+.school {
+    color: blue
 }
 
 #linkForm1{
