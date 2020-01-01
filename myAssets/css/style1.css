@@ -11,6 +11,11 @@ body {
     min-height: 100vh;
 }
 
+#gal {
+    background-image: none;
+    background-color: rgba(127, 255, 0, 0.2);
+}
+
 .navbar {
     background-color: aquamarine;
 }
@@ -344,8 +349,50 @@ a {
         padding-right: 5%;
         color: gold;
     }
+}
 
-  
-      
-       
+.gal_title, .gal_photos {
+    text-align: center;
+    align-self: center;
+    font-family: 'cursive', 'Luckiest Guy' ;
+    
+}
+
+.image_dim {
+    height: auto;
+    width: 100%;
+    padding: 3%;
+}
+
+.photo_section {
+    background-color: rgba(207, 205, 71, 0.1);
+}
+
+figcaption {
+    text-align: center;
+    color: black;
+    font-weight:bold;
+    font-style: italic;
+}
+
+#container_galaries {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.photo_link {
+    align-self: right;
+    text-align: right;
+    width: auto;
+    margin-right: 5%;
+}
+
+#photo_link1, #photo_link2 {
+    background: blue;
+    padding: 1%;
+}
+
+#title_edu1 {
+    margin-bottom: 65px;
+
 }
