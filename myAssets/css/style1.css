@@ -278,6 +278,27 @@ a {
     
   }
 
+  #clock_css {
+    position: fixed;
+    bottom: 20px;
+    border-radius:5px;
+    padding:0px;
+    margin:0px;
+    overflow:hidden;
+    width:270px;
+    height:auto;
+    color: brown;
+}
+
+#calenderDes {
+    position: fixed;
+    bottom: 0px;
+    width: 270px;
+    font-size: 1.3em;
+    background-color: green;
+    color: goldenrod;
+}
+
 @media only screen and (max-width: 1824px) {
 
     
@@ -285,18 +306,24 @@ a {
        
 }
 
-@media only screen and (max-width: 1224px) {
-
+@media only screen and (max-width: 990px) {
     
       
        
 }
 
 @media only screen and (max-width: 768px) {
-
+    #clock_css {
+       visibility: hidden;
+        
+    }
     
-      
+    #calenderDes {
+        visibility: hidden;
        
+    }
+    
+            
 }
 
 @media only screen and (max-width: 370px) {
@@ -335,6 +362,7 @@ a {
 }
 
 @media only screen and (max-width: 330px) {
+
 
     #myName2, #myname3 {
         display: inline;
@@ -406,4 +434,6 @@ figcaption {
     font-size: 1.5vw;
 
 }
+
+
 
