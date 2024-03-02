@@ -76,7 +76,7 @@ a {
     min-height: 270px;
 }
 
-#msc_header, #uncbc_header,#bsc_header, #job_header1, #job_header2, #job_header3, #job_header4, #job_header5, #job_header7, #job_header8 {
+#msc_header, #ma_header, #uncbc_header,#bsc_header, #job_header1, #job_header2, #job_header3, #job_header4, #job_header5, #job_header7, #job_header8 {
     background-color: olivedrab;
     color: #D6FFF6;
     opacity: .8;
